@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-//	Engineer			:	ZXK
+//	Engineer		:	ZXK
 //	Create Date		:	2024/10/13 16:18
 //	Module Name		:	din_buf
 //	Target Devices	:	all
 //	Tool Versions	:	all
 //	Description		:	the module to buffer data by inside clk
-//	Revision 		:	Revision 1.00        File        ZXK        2024/09/24        Create        
-//						Revision 2.00        File        ZXK        2025/02/26        suitable for all kind of input data        
+//	Revision 		:	Revision 1.00	File	ZXK	2024/09/24	Create        
+//						Revision 2.00	File	ZXK	2025/02/26	suitable for all kind of input data        
 //////////////////////////////////////////////////////////////////////////////////
-module        din_buf(
+module	din_buf(
 input	wire			sys_clk	,
 input	wire			in_dclk	,
 input	wire			i_de	,

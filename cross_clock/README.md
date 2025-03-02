@@ -12,6 +12,6 @@
 
 # author
 
-email: cosydeal@163.com
+Email: cosydeal@163.com
 
-wechat: cosydeal
+Wechat: cosydeal
