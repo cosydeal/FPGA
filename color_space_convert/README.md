@@ -1,6 +1,6 @@
 # 常用色彩空间转换模块
 
-#RGB888_2_YUV444
+## RGB888_2_YUV444
 
 include all kinds of yuv type ,such as yuv422 yuv420.......
 
@@ -10,19 +10,21 @@ include all kinds of yuv type ,such as yuv422 yuv420.......
 
 一些计数器用于控制采样周期；
 
-后续有时间会对采样模块进行补充。
+后续有时间会对采样模块进行补充；
+
+对了，定点数乘法的模块可以去cal_module里下载。
 
 
-#RGB888_2_RGB565
+## RGB888_2_RGB565
 
 截取位宽，非常简单;
 
 
-#RGB565_2_RGB888
+## RGB565_2_RGB888
 
 扩展位宽，非常简单;
 
-#bayer RAW10 to RGB565 （reserved）
+## bayer RAW10 to RGB565 （reserved）
 
 bayer格式数据解码，后续一定会补充该代码，预计在25/4/1之前
 
